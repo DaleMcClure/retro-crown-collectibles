@@ -40,13 +40,13 @@ const Navbar = () => {
                 bg-gradient-to-b from-neutral-50 
                 to bg-neutral-400 bg-opacity-50"
                 >
-                    <div className="hover:text-gray-50">Website Design</div>
-                    <div className="hover:text-gray-50">Graphic Design</div>
-                    <div className="hover:text-gray-50">Shopify Stores</div>
-                    <div className="hover:text-gray-50">Brands</div>
+                    <div className="hover:text-gray-50">Video Games</div>
+                    <div className="hover:text-gray-50">Consoles</div>
+                    <div className="hover:text-gray-50">Collectibles</div>
+                    <div className="hover:text-gray-50">Top Deals</div>
 
-                    <Link href="/pricing" className="hover:text-gray-50">
-                        Pricing
+                    <Link href="/Misc." className="hover:text-gray-50">
+                        Misc.
                     </Link>
                 </div>
 
@@ -71,7 +71,7 @@ const Navbar = () => {
 
                 <div className="hidden md:flex">
                     <Link
-                    href="/contact"
+                    href="/Contact"
                     className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
                     >
                         Contact
